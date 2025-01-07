@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    pollSCM '* * * * *'
+
+    stages {
+
+        stage("First-Build"){
+            steps{
+                sh '''
+
+
+                '''
+            }
+          
+
+        }
+         stage("First-Build"){
+            steps{
+                sh '''
+
+                '''
+            }
+    
+        }
+    }
+}
