@@ -20,7 +20,7 @@ pipeline {
              steps {
                 sh '''
                 cd my-maven-docker-project
-                docker build -t java-image:v1 ./my-maven-docker-project
+                docker build -t java-image:v1 .
 
                 '''
                 
